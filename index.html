@@ -12,6 +12,8 @@
     />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
+  <!-- font awesome  -->
+  <script src="https://kit.fontawesome.com/13eab97740.js" crossorigin="anonymous"></script>
   <!-- css customize    -->
   <script>
     tailwind.config = {
@@ -87,15 +89,20 @@
         <div class="px-4 lg:p-0 container mx-auto relative">
           <div class="carousel w-full rounded-lg">
             <div id="slide1" class="carousel-item relative w-full">
-              <img
-                src="Images/1.png"
-                class="w-full"
-              />
+              <img src="Images/1.png" class="w-full" />
               <div
-                class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0 "
+                class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0"
               >
-                <a href="#slide4" class="btn btn-circle bg-black text-white border-none">❮</a>
-                <a href="#slide2" class="btn btn-circle  bg-black text-white border-none">❯</a>
+                <a
+                  href="#slide4"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide2"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
               </div>
             </div>
             <div id="slide2" class="carousel-item relative w-full">
@@ -104,46 +111,97 @@
                 class="w-full"
               />
               <div
-                class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0 "
+                class="absolute flex gap-4 transform -translate-y-1/2 left-5 right-5 bottom-0"
               >
-                <a href="#slide1" class="btn btn-circle  bg-black text-white border-none">❮</a>
-                <a href="#slide3" class="btn btn-circle  bg-black text-white border-none">❯</a>
+                <a
+                  href="#slide1"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❮</a
+                >
+                <a
+                  href="#slide3"
+                  class="btn btn-circle bg-black text-white border-none"
+                  >❯</a
+                >
               </div>
             </div>
           </div>
-          <div class="bg-black text-white p-4 rounded-xl lg:w-1/3 lg:absolute bottom-6 right-6 mt-4">
+          <div
+            class="bg-black text-white p-4 rounded-xl lg:w-1/3 lg:absolute bottom-6 right-6 mt-4"
+          >
             <h2 class="text-xl mb-2">Meet all the heroes from the field</h2>
-            <p class="text-sm text-gray-300">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-sm text-gray-300">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat dolor. Purus urna in sit nullam proin.
+            </p>
           </div>
         </div>
       </section>
-      <section  class="px-4 lg:p-0 container mx-auto">
-        <div class="">
-          <div class="my-8 border-y p-4 text-center">
-            <h2 class="font-bold text-3xl mb-4">Professional Hockeys Club</h2>
-            <p class="text-gray-500 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+      <section class="px-4 lg:p-0 container mx-auto">
+        <div class="my-8 border-y p-4 text-center">
+          <h2 class="font-bold text-3xl mb-4">Professional Hockeys Club</h2>
+          <p class="text-gray-500 text-sm">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat <br />
+            dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
+          <div class="text-center mb-4">
+            <div
+              class="radial-progress text-primary"
+              style="--value: 87"
+              role="progressbar"
+            >
+              <span class="text-black">87%</span>
+            </div>
+            <h4 class="font-bold my-3">Prayer Facility</h4>
+            <p>
+              Amet consectetur. Condimentum <br />
+              dignissim adipiscing .
+            </p>
           </div>
-          <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
-            <div class="text-center mb-4">
-              <div class="radial-progress  text-primary" style="--value:87;" role="progressbar"><span class="text-black">87%</span></div>
-              <h4 class="font-bold my-3">Prayer Facility</h4>
-              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+          <div class="text-center mb-4">
+            <div
+              class="radial-progress text-green-400"
+              style="--value: 95"
+              role="progressbar"
+            >
+              <span class="text-black">95%</span>
             </div>
-            <div class="text-center mb-4">
-              <div class="radial-progress  text-green-400" style="--value:95;" role="progressbar"><span class="text-black">95%</span></div>
-              <h4 class="font-bold my-3">Experienced Coach</h4>
-              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            <h4 class="font-bold my-3">Experienced Coach</h4>
+            <p>
+              Amet consectetur. Condimentum <br />
+              dignissim adipiscing .
+            </p>
+          </div>
+          <div class="text-center mb-4">
+            <div
+              class="radial-progress text-yellow-400"
+              style="--value: 90"
+              role="progressbar"
+            >
+              <span class="text-black">90%</span>
             </div>
-            <div class="text-center mb-4">
-              <div class="radial-progress  text-yellow-400" style="--value:90;" role="progressbar"><span class="text-black">90%</span></div>
-              <h4 class="font-bold my-3">Senior Player</h4>
-              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
+            <h4 class="font-bold my-3">Senior Player</h4>
+            <p>
+              Amet consectetur. Condimentum <br />
+              dignissim adipiscing .
+            </p>
+          </div>
+          <div class="text-center mb-4">
+            <div
+              class="radial-progress text-blue-500"
+              style="--value: 80"
+              role="progressbar"
+            >
+              <span class="text-black">80%</span>
             </div>
-            <div class="text-center mb-4">
-              <div class="radial-progress  text-blue-500" style="--value:80;" role="progressbar"><span class="text-black">80%</span></div>
-              <h4 class="font-bold my-3">Training Ground</h4>
-              <p>Amet consectetur. Condimentum <br> dignissim adipiscing .</p>
-            </div>
+            <h4 class="font-bold my-3">Training Ground</h4>
+            <p>
+              Amet consectetur. Condimentum <br />
+              dignissim adipiscing .
+            </p>
           </div>
         </div>
       </section>
@@ -151,45 +209,190 @@
         <div class="px-4 lg:p-0 container mx-auto">
           <div class="my-8 border-y p-4 text-center">
             <h2 class="font-bold text-3xl mb-4">Program Sections</h2>
-            <p class="text-gray-500 text-sm">Dit amet consectetur. Condimentum dignissim adipiscing aliquam turpis placerat <br> dolor. Purus urna in sit nullam proin. </p>
+            <p class="text-gray-500 text-sm">
+              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+              turpis placerat <br />
+              dolor. Purus urna in sit nullam proin.
+            </p>
           </div>
-              <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
-                <div class="card bg-base-100 shadow-xl image-full">
-                  <figure><img src="Images/2.png" class="w-full"  alt="Shoes" /></figure>
-                  <div class="card-body ">
-                    <h2 class="card-title lg:mt-12">Junior Program</h2>
-                    <p class="text-sm py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                      enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <div class="card-actions">
-                      <button class=" bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded">Register Now!</button>
-                    </div>
-                  </div>
-                </div>
-                <div class="card bg-base-100 shadow-xl image-full">
-                  <figure><img src="Images/3.png" class="w-full"  alt="Shoes" /></figure>
-                  <div class="card-body ">
-                    <h2 class="card-title lg:mt-12">Junior Program</h2>
-                    <p class="text-sm py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                      enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                    <div class="card-actions">
-                      <button class=" bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded">Register Now!</button>
-                    </div>
-                  </div>
+          <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+            <div class="card bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="Images/2.png" class="w-full" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title lg:mt-12">Junior Program</h2>
+                <p class="text-sm py-2">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="card-actions">
+                  <button
+                    class="bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded"
+                  >
+                    Register Now!
+                  </button>
                 </div>
               </div>
-             <div class="grid grid-cols-1 my-8">
-              <div class="card w-full bg-base-100 shadow-xl image-full">
-                <figure><img src="Images/4.png" class="w-full" alt="Shoes" /></figure>
-                <div class="card-body w-1/2">
-                  <h2 class="card-title lg:mt-12">Junior Program</h2>
-                  <p class="text-sm py-2">Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit elit 
-                    enim sagittis turpis in magna. Id et sed euismod natoque amet nunc morbi nulla. Tortor congue sed et in.</p>
-                  <div class="card-actions">
-                    <button class=" bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded">Register Now!</button>
-                  </div>
-              </div>
-             </div>
             </div>
+            <div class="card bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="Images/3.png" class="w-full" alt="Shoes" />
+              </figure>
+              <div class="card-body">
+                <h2 class="card-title lg:mt-12">Junior Program</h2>
+                <p class="text-sm py-2">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="card-actions">
+                  <button
+                    class="bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="grid grid-cols-1 my-8">
+            <div class="card w-full bg-base-100 shadow-xl image-full">
+              <figure>
+                <img src="Images/4.png" class="w-full" alt="Shoes" />
+              </figure>
+              <div class="card-body w-1/2">
+                <h2 class="card-title lg:mt-12">Junior Program</h2>
+                <p class="text-sm py-2">
+                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
+                  elit enim sagittis turpis in magna. Id et sed euismod natoque
+                  amet nunc morbi nulla. Tortor congue sed et in.
+                </p>
+                <div class="card-actions">
+                  <button
+                    class="bg-primary text-white font-bold hover:bg-red-600 border-none px-3 py-1 rounded"
+                  >
+                    Register Now!
+                  </button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+      <section class="px-4 lg:p-0 container mx-auto">
+        <div class="my-8 border-y p-4 text-center ">
+          <h2 class="font-bold text-3xl mb-4">Our New Products</h2>
+          <p class="text-gray-500 text-sm">
+            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
+            turpis placerat <br />
+            dolor. Purus urna in sit nullam proin.
+          </p>
+        </div>
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/5.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/6.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/7.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/8.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/9.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
+          <div class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl  lg:flex-row flex-col">
+            <figure ><img src="Images/10.png"  alt="Movie"/></figure>
+           
+            <div class="lg:px-4">
+              <ul class="flex gap-4 text-gray-400 py-4 lg:p-0">
+                <li><span><i class="fa-solid fa-star text-yellow-400"></i></span> 5.0</li>
+                <li><span><i class="fa-regular fa-eye"></i></span> 20</li>
+                <li><span><i class="fa-regular fa-heart"></i></span> 200</li>
+              </ul>
+              <h2 class="card-title">World Cup Flags Football</h2>
+              <p class="text-sm py-4 text-gray-400">Dolor sit amet consectetur. Ut urna diam quis sagittis.</p>
+              <div class="flex gap-4 lg:flex-row flex-col">
+                <p class="text-primary font-bold">Price - $22.00</p>
+                <p class="text-gray-400"><span><i class="fa-solid fa-cart-shopping"></i></span> Delivery Fee : Free</p>
+              </div>
+            </div>
+          </div>
         </div>
       </section>
     </main>
