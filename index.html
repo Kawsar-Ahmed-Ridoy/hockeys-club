@@ -35,7 +35,7 @@
         <div class="navbar my-2 p-0">
           <div class="navbar-start">
             <div class="dropdown">
-              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden">
+              <div tabindex="0" role="button" class="btn btn-ghost lg:hidden ps-0">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   class="h-5 w-5"
@@ -55,15 +55,12 @@
                 tabindex="0"
                 class="menu menu-sm dropdown-content mt-3 z-[1] p-2 shadow bg-base-100 rounded-box w-52"
               >
-                <li><a>Item 1</a></li>
-                <li>
-                  <a>Parent</a>
-                  <ul class="p-2">
-                    <li><a>Submenu 1</a></li>
-                    <li><a>Submenu 2</a></li>
-                  </ul>
-                </li>
-                <li><a>Item 3</a></li>
+              <li><i class="fa-solid fa-magnifying-glass text-gray-400 "></i></li>
+              <li class="text-primary"><a>Home</a></li>
+              <li><a>About</a></li>
+              <li><a>Pages</a></li>
+              <li><a>Blog</a></li>
+              <li><a>Contact</a></li>
               </ul>
             </div>
             <a class="text-3xl gap-0 font-extrabold"
@@ -72,6 +69,7 @@
           </div>
           <div class="navbar-center hidden lg:flex">
             <ul class="menu menu-horizontal px-1 font-bold">
+              
               <li class="text-primary"><a>Home</a></li>
               <li><a>About</a></li>
               <li><a>Pages</a></li>
@@ -80,6 +78,7 @@
             </ul>
           </div>
           <div class="navbar-end">
+            <i class="fa-solid fa-magnifying-glass m-4 text-gray-400 hidden lg:block"></i>
             <a class="btn bg-primary text-white font-bold hover:bg-red-600"
               >Get Ticket</a
             >
@@ -134,19 +133,16 @@
           >
             <h2 class="text-xl mb-2">Meet all the heroes from the field</h2>
             <p class="text-sm text-gray-300">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat dolor. Purus urna in sit nullam proin.
+              Explore the profiles of hockey's finest athletes on our platform, where we celebrate the heroes of the field. Dive into their stories, achievements, and contributions to the sport, inspiring fans worldwide.
             </p>
           </div>
         </div>
       </section>
-      <section class="px-4 lg:p-0 container mx-auto">
+      <section class="px-4 lg:p-0 container mx-auto lg:pt-8">
         <div class="my-8 border-y p-4 text-center">
           <h2 class="font-bold text-3xl mb-4">Professional Hockeys Club</h2>
-          <p class="text-gray-500 text-sm">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+          <p class="text-gray-500 text-sm  w-full lg:w-1/2 mx-auto">
+            Welcome to the world of professional hockey with our club. Join us as we embrace the spirit of the game, unite fans, and strive for excellence on and off the ice.
           </p>
         </div>
         <div class="grid sm:grid-cols-1 md:grid-cols-2 lg:grid-cols-4">
@@ -209,13 +205,11 @@
         </div>
       </section>
       <section>
-        <div class="px-4 lg:p-0 container mx-auto">
+        <div class="px-4 lg:p-0 container mx-auto lg:pt-8">
           <div class="my-8 border-y p-4 text-center">
             <h2 class="font-bold text-3xl mb-4">Program Sections</h2>
-            <p class="text-gray-500 text-sm">
-              Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-              turpis placerat <br />
-              dolor. Purus urna in sit nullam proin.
+            <p class="text-gray-500 text-sm w-full lg:w-1/2 mx-auto">
+              Discover our diverse program sections, each tailored to meet the needs of players, fans, and enthusiasts alike. From skill-building sessions to in-depth analyses, we offer something for every hockey enthusiast.
             </p>
           </div>
           <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
@@ -223,12 +217,10 @@
               <figure>
                 <img src="Images/2.png" class="w-full" alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title lg:mt-12">Junior Program</h2>
-                <p class="text-sm py-2">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna. Id et sed euismod natoque
-                  amet nunc morbi nulla. Tortor congue sed et in.
+              <div class="card-body justify-end">
+                <h2 class="card-title text-white lg:mt-12">Junior Program</h2>
+                <p class="text-sm py-2 flex-grow-0">
+                  Join our Junior Program and embark on a journey of skill development, teamwork, and sportsmanship. Designed for aspiring young athletes, our program fosters growth and prepares players for success both on and off the ice.
                 </p>
                 <div class="card-actions">
                   <button
@@ -243,12 +235,10 @@
               <figure>
                 <img src="Images/3.png" class="w-full" alt="Shoes" />
               </figure>
-              <div class="card-body">
-                <h2 class="card-title lg:mt-12">Junior Program</h2>
-                <p class="text-sm py-2">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna. Id et sed euismod natoque
-                  amet nunc morbi nulla. Tortor congue sed et in.
+              <div class="card-body justify-end">
+                <h2 class="card-title text-white lg:mt-12">Teenager Program</h2>
+                <p class="text-sm py-2 flex-grow-0">
+                  Experience the excitement of hockey in our Teenager Program, tailored specifically for young athletes. From honing skills to building camaraderie, our program provides a supportive environment for teenagers to thrive and excel on the ice.
                 </p>
                 <div class="card-actions">
                   <button
@@ -265,12 +255,10 @@
               <figure>
                 <img src="Images/4.png" class="w-full" alt="Shoes" />
               </figure>
-              <div class="card-body w-1/2">
-                <h2 class="card-title lg:mt-12">Junior Program</h2>
-                <p class="text-sm py-2">
-                  Dolor sit amet consectetur. Ut urna diam quis sagittis. Elit
-                  elit enim sagittis turpis in magna. Id et sed euismod natoque
-                  amet nunc morbi nulla. Tortor congue sed et in.
+              <div class="card-body lg:w-1/2 justify-end">
+                <h2 class="card-title text-white lg:mt-12">Professional Program</h2>
+                <p class="text-sm py-2 flex-grow-0">
+                  Elevate your game with our Professional Program, designed for elite athletes aiming for the top of their game. Receive expert coaching, access to state-of-the-art facilities, and personalized training to reach your full potential in the world of hockey.
                 </p>
                 <div class="card-actions">
                   <button
@@ -284,16 +272,14 @@
           </div>
         </div>
       </section>
-      <section class="px-4 lg:p-0 container mx-auto">
+      <section class="px-4 lg:p-0 container mx-auto lg:pt-4">
         <div class="my-8 border-y p-4 text-center">
           <h2 class="font-bold text-3xl mb-4">Our New Products</h2>
-          <p class="text-gray-500 text-sm">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+          <p class="text-gray-500 text-sm  w-full lg:w-1/2 mx-auto">
+            Explore our latest lineup of innovative hockey products, meticulously crafted to enhance your performance on the ice. From cutting-edge gear to revolutionary training aids, our new products are designed to elevate your game to new heights.
           </p>
         </div>
-        <div class="grid grid-cols-1 lg:grid-cols-2 gap-8">
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
           <div
             class="card card-side bg-base-100 p-4 border border-gray-100 shadow-xl lg:flex-row flex-col"
           >
@@ -313,8 +299,8 @@
                 </li>
               </ul>
               <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <p class="text-sm py-3 text-gray-400">
+                Experience the thrill of international football with World <br> Cup Flags, where teams compete for glory under their nation's banner.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -344,8 +330,8 @@
                 </li>
               </ul>
               <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <p class="text-sm py-3 text-gray-400">
+                Experience the thrill of international football with World <br> Cup Flags, where teams compete for glory under their nation's banner.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -374,9 +360,9 @@
                   <span><i class="fa-regular fa-heart"></i></span> 200
                 </li>
               </ul>
-              <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <h2 class="card-title">Cap For Hockeys</h2>
+              <p class="text-sm py-3 text-gray-400">
+                Stay stylish on and off the ice with our range of premium hockey caps, <br> crafted for comfort and performance.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -406,8 +392,8 @@
                 </li>
               </ul>
               <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <p class="text-sm py-3 text-gray-400">
+                Experience the thrill of international football with World <br> Cup Flags, where teams compete for glory under their nation's banner.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -437,8 +423,8 @@
                 </li>
               </ul>
               <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <p class="text-sm py-3 text-gray-400">
+                Experience the thrill of international football with World <br> Cup Flags, where teams compete for glory under their nation's banner.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -468,8 +454,8 @@
                 </li>
               </ul>
               <h2 class="card-title">World Cup Flags Football</h2>
-              <p class="text-sm py-4 text-gray-400">
-                Dolor sit amet consectetur. Ut urna diam quis sagittis.
+              <p class="text-sm py-3 text-gray-400">
+                Experience the thrill of international football with World <br> Cup Flags, where teams compete for glory under their nation's banner.
               </p>
               <div class="flex gap-4 lg:flex-row flex-col">
                 <p class="text-primary font-bold">Price - $22.00</p>
@@ -482,13 +468,11 @@
           </div>
         </div>
       </section>
-      <section class="px-4 lg:p-0 container mx-auto">
+      <section class="px-4 lg:p-0 container mx-auto lg:pt-8">
         <div class="my-8 border-y p-4 text-center">
           <h2 class="font-bold text-3xl mb-4">Clients Question</h2>
-          <p class="text-gray-500 text-sm">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+          <p class="text-gray-500 text-sm  w-full lg:w-1/2 mx-auto">
+            Explore our comprehensive FAQ section designed to address common inquiries from our valued clients. Find answers to your questions and learn more about our services and offerings.
           </p>
         </div>
         <div class="">
@@ -504,7 +488,7 @@
                   Our Equipment
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Discover top-quality hockey equipment crafted for performance and durability. From sticks to protective gear, our collection ensures you're prepared for every game.</p>
                 </div>
               </div>
               <div class="collapse collapse-plus border-y rounded-none">
@@ -513,7 +497,7 @@
                   Hockey Training
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Elevate your game with our comprehensive hockey training program. Designed for players of all skill levels, our program focuses on skill development, strategy, and fitness to help you reach your full potential on the ice.</p>
                 </div>
               </div>
               <div class="collapse collapse-plus rounded-none">
@@ -522,7 +506,7 @@
                   Private Lessons
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Unlock your full potential with personalized private lessons tailored to your individual needs. Our experienced coaches provide focused instruction to help you master key skills and elevate your performance on the ice.</p>
                 </div>
               </div>
               <div class="collapse collapse-plus border-y rounded-none">
@@ -531,7 +515,7 @@
                   Ski Touring
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Embark on an exhilarating ski touring adventure through breathtaking landscapes and untouched snow. Our expert guides ensure a safe and unforgettable experience for all skill levels.</p>
                 </div>
               </div>
               <div class="collapse collapse-plus border-b rounded-none">
@@ -540,7 +524,7 @@
                   Booking
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Streamline your travel plans with our convenient booking platform. From accommodations to activities, easily secure your reservations for a hassle-free journey.</p>
                 </div>
               </div>
               <div class="collapse collapse-plus rounded-none">
@@ -549,7 +533,7 @@
                   Pricings
                 </div>
                 <div class="collapse-content"> 
-                  <p>hello</p>
+                  <p>Explore our transparent pricing options designed to suit every budget. From flexible packages to customizable plans, find the perfect pricing for your needs.</p>
                 </div>
               </div>
               </div>
@@ -557,17 +541,15 @@
           </div>
         </div>
       </section>
-      <section class="px-4 lg:p-0 container mx-auto">
+      <section class="px-4 lg:p-0 container mx-auto lg:pt-8">
         <div class="my-8 border-y p-4 text-center">
           <h2 class="font-bold text-3xl mb-4">Get In Touch</h2>
-          <p class="text-gray-500 text-sm">
-            Dit amet consectetur. Condimentum dignissim adipiscing aliquam
-            turpis placerat <br />
-            dolor. Purus urna in sit nullam proin.
+          <p class="text-gray-500 text-sm w-full lg:w-1/2 mx-auto">
+            Reach out to us easily with our 'Get In Touch' feature. Whether you have questions, feedback, or inquiries, our team is here to assist you promptly.
           </p>
         </div>
-        <div class="">
-          <div class="border p-6 rounded">
+        <div class=" flex justify-between flex-col lg:flex-row">
+          <div class="border p-6 rounded w-full lg:w-1/3 mb-2">
             <div class="p-4 bg-green-50 rounded mb-4">
               <h3 class="mb-6"><img src="Images/Group 1171275317.png" alt=""></h3>
               <span class="text-gray-400">Phone Number : </span>
@@ -585,56 +567,103 @@
               <h4 class="font-bold">152/1 Mohakhali Wireless Gate</h4>
             </div>
           </div>
-          <div class="grid grid-cols-1 lg:grid-cols-2">
-            <label class="form-control w-full max-w-xs mb-2">
-              <div class="label">
-                <span class="label-text font-bold">Your Name</span>
-              </div>
-              <input type="text" placeholder="Enter your full name" class="input bg-gray-100 w-full max-w-xs" />
-            </label>
-            <label class="form-control w-full max-w-xs mb-2">
-              <div class="label">
-                <span class="label-text font-bold">Your Email</span>
-              </div>
-              <input type="text" placeholder="Enter your email" class="input bg-gray-100 w-full max-w-xs" />
-            </label>
-            <label class="form-control w-full max-w-xs mb-2">
-              <div class="label">
-                <span class="label-text font-bold">Subject</span>
-              </div>
-              <input type="text" placeholder="Enter your subject" class="input bg-gray-100 w-full max-w-xs" />
-            </label>
-            <label class="form-control w-full max-w-xs mb-2">
-              <div class="label">
-                <span class="label-text font-bold">Phone Number</span>
-              </div>
-              <input type="text" placeholder="Enter your phone number" class="input bg-gray-100 w-full max-w-xs" />
-            </label>
+          <div class="lg:w-2/3 w-full lg:ps-8 ">
+            <div class="grid grid-cols-1 lg:grid-cols-2 gap-4">
+              <label class="form-control w-full  mb-2">
+                <div class="label">
+                  <span class="label-text font-bold">Your Name</span>
+                </div>
+                <input type="text" placeholder="Enter your full name" class="input bg-gray-100 w-full " />
+              </label>
+              <label class="form-control w-full  mb-2">
+                <div class="label">
+                  <span class="label-text font-bold">Your Email</span>
+                </div>
+                <input type="text" placeholder="Enter your email" class="input bg-gray-100 w-full " />
+              </label>
+              <label class="form-control w-full  mb-2">
+                <div class="label">
+                  <span class="label-text font-bold">Subject</span>
+                </div>
+                <input type="text" placeholder="Enter your subject" class="input bg-gray-100 w-full " />
+              </label>
+              <label class="form-control w-full  mb-2">
+                <div class="label">
+                  <span class="label-text font-bold">Phone Number</span>
+                </div>
+                <input type="text" placeholder="Enter your phone number" class="input bg-gray-100 w-full " />
+              </label>
+            </div>
+            <div class="">
+              <label class="form-control mb-4">
+                <div class="label">
+                  <span class="label-text font-bold">Message</span>
+                </div>
+                <textarea class="textarea lg:h-64 h-40 bg-gray-100 " placeholder="Write your message"></textarea>
+              </label>
+              <button
+                      class="bg-primary text-white font-bold w-full hover:bg-red-600 border-none px-3 py-1 rounded-md"
+                    >
+                    Send Message
+                    </button>
+            </div>
           </div>
-          <div class="">
-            <label class="form-control mb-4">
-              <div class="label">
-                <span class="label-text font-bold">Message</span>
-              </div>
-              <textarea class="textarea h-24 bg-gray-100 " placeholder="Write your message"></textarea>
-            </label>
-            <button
-                    class="bg-primary text-white font-bold w-full hover:bg-red-600 border-none px-3 py-1 rounded-md"
-                  >
-                  Send Message
-                  </button>
-          </div>
-          <div class="my-8 bg-gray-100 p-4 text-center">
-            <h2 class="font-bold text-xl mb-4">Social Media</h2>
-            <ul class="flex gap-6 justify-center">
-              <li><i class="fa-brands fa-twitter"></i></li>
-              <li><i class="fa-brands fa-facebook-f"></i></li>
-              <li><i class="fa-brands fa-instagram"></i></li>
-              <li><i class="fa-brands fa-github"></i></li>
-            </ul>
-          </div>
+        </div>
+        <div class="my-8 bg-gray-100 p-4 text-center">
+          <h2 class="font-bold text-xl mb-4">Social Media</h2>
+          <ul class="flex gap-6 justify-center">
+            <li><i class="fa-brands fa-twitter"></i></li>
+            <li><i class="fa-brands fa-facebook-f"></i></li>
+            <li><i class="fa-brands fa-instagram"></i></li>
+            <li><i class="fa-brands fa-github"></i></li>
+          </ul>
         </div>
       </section>
     </main>
+<footer class="  bg-black ">
+<div class="container mx-auto">
+  <div class="p-10 lg:px-0 text-center lg:text-start lg:flex lg:justify-between lg:mt-16">
+    <nav class="lg:w-80 text-gray-400 mb-4">
+      <h6 class="text-white font-bold text-xl mb-4">Get In Touch</h6> 
+      <p class="mb-4">Reach out to us easily with our 'Get In Touch' feature. Whether you have questions, feedback, or inquiries, our team is here to assist you promptly. </p>
+      <ul>
+        <li class="mb-2"><span><i class="fa-regular fa-envelope text-primary me-1"></i></span> hockeys@support.com</li>
+        <li><span><i class="fa-solid fa-phone text-primary me-1"></i></span> (+62) 123-321-543</li>
+      </ul>
+    </nav> 
+    <div class="w-full lg:w-1/4 flex justify-between mb-4">
+      <nav class="text-gray-400 ">
+        <h6 class="text-white font-bold mb-4">Company</h6>
+        <ul class="flex flex-col gap-2">
+          <li><a class="link link-hover">About us</a></li>
+          <li><a class="link link-hover">Leadership</a></li>
+          <li><a class="link link-hover">Careers</a></li>
+          <li><a class="link link-hover">News & Article</a></li>
+          <li><a class="link link-hover">Legal Notice</a></li>
+        </ul>          
+      </nav> 
+      <nav class="text-gray-400 ">
+        <h6 class="text-white font-bold mb-4">Support</h6> 
+        <ul class="flex flex-col gap-2">
+          <li><a class="link link-hover">Help Center</a></li>
+          <li><a class="link link-hover">FAQ</a></li>
+          <li><a class="link link-hover">Ticket Support</a></li>
+          <li><a class="link link-hover">Contact Us</a></li>
+        </ul>
+      </nav> 
+    </div>
+    <nav class="text-gray-400">
+      <h6 class="text-white font-bold mb-4">Services</h6> 
+      <ul class="flex flex-col gap-2">
+        <li><a class="link link-hover">Academy</a></li>
+        <li><a class="link link-hover">Group Lesson</a></li>
+        <li><a class="link link-hover">Private Lesson</a></li>
+        <li><a class="link link-hover">Hockeys for kids</a></li>
+        <li><a class="link link-hover">Hockeys for Adult</a></li>
+      </ul>        
+    </nav> 
+  </div>
+</div>
+</footer>
   </body>
 </html>
